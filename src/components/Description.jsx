@@ -24,11 +24,11 @@ const Description = () => {
 
             <button className="bg-yellow-500 border text-white rounded-lg p-5 mr-3 pl-5">Find Out More</button>
             <button className="ml-5">
-                <img src={playButton} className="inline h-10"/>  Play Demo</button>
+                <img src={playButton} className="inline h-12 mr-2"/>Play Demo</button>
         </div>
 
         <div>
-            <img src={image} alt="" className="" style={{height : "550px"}}/>
+            <img src={image} alt="" className="h-[550px]" />
         </div>
     </div>
   )

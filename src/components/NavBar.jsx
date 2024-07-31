@@ -11,7 +11,7 @@ const NavBar = () => {
       <p className="pt-4">Bookings</p>
       <button>Login</button>
       <button className="border border-solid border-black pl-4 pr-4 pt-0 pb-0">Sign Up</button>
-      <select className="w-14" style={{backgroundColor : "#FFF1DA"}}>
+      <select className="w-14 bg-[#FFF1DA]" >
         <option value="en">En</option>
         <option value="tm">Tm</option>
       </select>

@@ -13,7 +13,7 @@ const Destination = () => {
 
         <div className="flex justify-evenly mt-20 mb-20">
             <div className="border-2 border-solid border-black rounded-3xl text-center">
-                <img src={image1} alt="" style={{height : "300px" , width : "400px" , borderTopLeftRadius : "25px" , borderTopRightRadius : "25px"}}/>
+                <img src={image1} alt=""  className="h-[300px] w-[400px] rounded-tl-[25px] rounded-tr-[25px]"/>
                 <br />
                 <p>Rome, Italy   $5,42K</p>
                 <br />
@@ -21,7 +21,7 @@ const Destination = () => {
             </div>
 
             <div className="border-2 border-solid border-black rounded-3xl  text-center">
-                <img src={image2} alt="" style={{height : "300px" , width : "400px" , borderTopLeftRadius : "25px" , borderTopRightRadius : "25px"}}/>
+                <img src={image2} alt="" className="h-[300px] w-[400px] rounded-tl-[25px] rounded-tr-[25px]"/>
                 <br />
                 <p>London, UK   $5,42K</p>
                 <br />
@@ -29,7 +29,7 @@ const Destination = () => {
             </div>
 
             <div className="border-2 border-solid border-black rounded-3xl text-center">
-                <img src={image3} alt="" style={{height : "300px" , width : "400px" , borderTopLeftRadius : "25px" , borderTopRightRadius : "25px"}}/>
+                <img src={image3} alt="" className="h-[300px] w-[400px] rounded-tl-[25px] rounded-tr-[25px]"/>
                 <br />
                 <p>Full Europe   $5,42K</p>
                 <br />
