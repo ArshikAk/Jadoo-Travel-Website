@@ -5,6 +5,7 @@ import Destination from "./components/Destination"
 import NextTrip from "./components/NextTrip"
 import Subcribe from "./components/Subcribe"
 import Footer from "./components/Footer"
+import BgImage from "./components/BgImage"
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <NextTrip/>
       <Subcribe/>
       <Footer/>
+      <BgImage/>
     </>
   )
 }

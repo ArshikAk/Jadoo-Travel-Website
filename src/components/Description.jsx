@@ -1,4 +1,5 @@
 import image from "../assets/Image1.png"
+import playButton from "../assets/playButton.png"
 
 const Description = () => {
   return (
@@ -22,7 +23,8 @@ const Description = () => {
             <br />
 
             <button className="bg-yellow-500 border text-white rounded-lg p-5 mr-3 pl-5">Find Out More</button>
-            <button className="">Play Demo</button>
+            <button className="ml-5">
+                <img src={playButton} className="inline h-10"/>  Play Demo</button>
         </div>
 
         <div>

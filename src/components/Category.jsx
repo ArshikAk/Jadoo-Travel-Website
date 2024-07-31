@@ -23,7 +23,7 @@ const Category = () => {
       </div>
 
       <div className="flex flex-col justify-center items-center">
-        <img src={image2} alt="" className="h-28 w-28"/>
+        <img src={image2} alt="" className="h-20 w-20"/>
         <br />
         <h1 className="text-slate-700 text-lg font-bold">Best Flights</h1>
         <br />
